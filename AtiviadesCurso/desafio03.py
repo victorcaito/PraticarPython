@@ -1,8 +1,10 @@
-numero1 = int(input('Insira um número: '))
-numero2 = int(input('Insira outro número '))
+#  Programa para calcular a soma de dois números quaisquer
+
+numero1 = int(input("Insira um número: "))
+numero2 = int(input("Insira outro número "))
 soma = numero1 + numero2
 # print('A soma dos números', numero1, 'e', numero2, 'números é igual a: ', soma) esse é o antigo
-print('A soma entre {} e {} vale {}'.format(numero1, numero2, soma))
+print(f"A soma entre {numero1} e {numero2} vale {soma}")
 # a mascara {} serve para substituir os valores dentro do texto, simplificando a leitura e digitação
 # int é todos os números inteiros sendo eles negativos ou não, sem virgulas
 # float é todos os números com virgula sendo eles negativos ou não

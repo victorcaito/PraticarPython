@@ -1,3 +1,5 @@
+#  Programa para verificar se uma variável é um número, alfanumérico, letra, número inteiro, número decimal, espaço em branco, letra minúscula, letra maiúscula
+
 texto = str(input('Insira algo: '))
 print(texto.isnumeric(), 'É um número')# diz se o que foi digitado é um número
 print(texto.isalnum(), 'É um alfanumérico')
