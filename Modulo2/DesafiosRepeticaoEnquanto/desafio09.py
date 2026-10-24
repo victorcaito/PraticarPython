@@ -29,4 +29,4 @@ while continuar in 'SIM':
     continuar = str(input('Seja continuar? SIM/NÃO')).upper().strip()[0]
 media = soma / contagem
 # só faz a média se o usuário digitar não
-print(f'{cores["azul"]}{soma}  e {cores["fundoverde"]}{contagem} {cores["limpa"]} e {cores["azul"]}{media} {cores["limpa"]} | {cores["amarelo"]}{menor} e {maior}{cores["limpa"]}')
+print(f'{cores["azul"]}{soma}  e {cores["fundoverde"]}{contagem} {cores["limpa"]} e {cores["azul"]}{media:.2f} {cores["limpa"]} | {cores["amarelo"]}{menor} e {maior}{cores["limpa"]}')

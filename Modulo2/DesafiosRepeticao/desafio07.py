@@ -6,6 +6,8 @@ if numero > 2 and numero % numero == 0:
 else:
     print("O número não é primo")
 
+# ou
+
 numero2 = int(input('Insira outro número qualquer: '))
 total = 0
 for contagem in range(1, numero2 + 1):

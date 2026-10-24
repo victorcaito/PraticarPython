@@ -1,7 +1,9 @@
 # Jogo de jokenpo com o computador
 
 from random import randint
+
 # o randint() gera um número aleatório entre 1 e 3
+
 itens = ('Pedra', 'Papel', 'Tesoura')
 computador = randint(0, 2)
 print('''Suas opções: 
