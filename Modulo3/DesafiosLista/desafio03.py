@@ -4,7 +4,7 @@ lista = []
 for contagem in range(0, 5):
     numeros = (int(input('Insira um número: ')))
     if contagem == 0 or numeros > lista[-1]:
-        # se for o primeiro número ou for maior que o último número da lista, insere no final
+        # se for o primeiro número ou for maior que o último número da lista, insere no final [-1] é a posição do último elemento da lista
         # se não, insere na posição correta
         # se houver mais de um elemento igual, insere no primeiro lugar
         lista.append(numeros)
