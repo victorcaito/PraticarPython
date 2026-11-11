@@ -1,3 +1,5 @@
+# Programa que pede o nome do jogador, a quantidade de partidas e a quantidade de gols em cada partida e mostra resultados expecíficos
+
 placar = {}
 gols = [] 
 
