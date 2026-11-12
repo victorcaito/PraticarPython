@@ -32,9 +32,9 @@ while True:
 
     soma = soma + cadastro['idade']
     
-    resposta = input('Deseja continuar? [S ou N]: ').upper()[0]
+    resposta = str(input('Deseja continuar? [S ou N]: ')).upper()[0]
     while resposta != 'S' and resposta != 'N':
-        resposta = input('Insira apenas as letras S ou N: ').upper()[0]
+        resposta = str(input('Insira apenas as letras S ou N: ')).upper()[0]          
     if resposta == 'N':
         print('Finalizando... Calculando resultados...')
         break
