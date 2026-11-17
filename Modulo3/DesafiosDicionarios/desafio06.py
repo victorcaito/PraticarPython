@@ -5,6 +5,7 @@ copia_gol = []
 
 while True:
     gols = []
+    # o loop vai resetar a lista gols a cada jogador, adicionando novos dados cada vez  
     jogadores['nome'] = input('Insira o nome do jogador: ').title()
     nomes.append(jogadores['nome'])
 
