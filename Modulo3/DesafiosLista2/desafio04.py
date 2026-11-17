@@ -10,6 +10,7 @@ while True:
     resposta = str(input("Deseja continuar? [S/N] ")).strip().upper()[0]
     if resposta == "N":
         break
+    
 print(f'{"No.":<4}{"NOME":<10}{"MÉDIA":>8}')
 # exibe o cabeçalho da tabela com os títulos "No.", "NOME" e "MÉDIA"
 for posicao, aluno in enumerate(informacoes):
